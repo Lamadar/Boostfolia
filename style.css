@@ -7,3 +7,117 @@ body {
 *:after {
     box-sizing: border-box;
 }
+.container {
+    width: 1003px;
+    margin: 0 auto;
+    
+}
+
+.header__inner{
+display: flex;
+align-items: center;
+padding:50px 0;
+}
+
+.header__logo{
+    position: relative;
+color: #696969;
+font-family: "Montserrat";
+font-size: 40px;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 3px;
+padding-left: 25px;
+
+}
+.header__menu{
+/* right: 0; */
+margin-left: auto;
+}
+.fa-bars{
+    color: #696969;
+}
+/* intro */
+.intro{
+
+    font-family: "Montserrat";
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-image: url("../boostfolia/intro/Image.png");
+    height: 708px;
+    color: #d6d5d5;
+text-align: center;
+}
+     
+.intro__title{
+
+color: #d6d5d5;
+font-size: 50px;
+font-weight: 600;
+text-transform: uppercase;
+margin: 0 25px  25px 25px;
+}
+.intro__subtitle{
+    
+color: #d6d5d5;
+font-family: "Montserrat";
+font-size: 25px;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 3.6px;
+}
+.intro__icon{
+    padding-top: 170px;
+    padding-bottom: 15px;
+   
+}
+.intro__subtitle2{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+/* ABOUT */
+.about{
+    height: 570px;
+}
+
+
+/* Block */
+.block__header{
+    text-align: center;
+    font-family: "Montserrat";
+}
+.about__blocks{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+
+}
+.about__title{
+color: #3d3d3d;
+font-size: 48px;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 4.8px;
+margin-top: 95px;
+}
+.about__title:after{
+    content: '';
+    box-sizing: border-box;
+    display: inline;
+    border-top:1px solid  #f15324 ;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
