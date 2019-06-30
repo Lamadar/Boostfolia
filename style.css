@@ -225,7 +225,7 @@ border: 0;
 margin-top: 25px;
 width: 127px;
 height: 35px;
-background-color: #e84c3d;
+background-color: #f6744b;
 color: #ebebeb;
 font-family: "Montserrat", sans-serif;
 font-size: 14px;
@@ -578,7 +578,7 @@ color: #ffffff;
 }
 .plan__subtitle{
 color: #ffffff;
-font-family: Roboto;
+font-family: "Montserrat", sans-serif;
 font-weight: 300;
 font-size: 36px;
 }
@@ -588,4 +588,63 @@ padding: 30px;
 
 .plan__item:hover{
 border: 2px solid #f6744b;
+}
+.plan__item:hover .color{
+    color: #f6744b;
+    font-weight: 1000;
+}
+
+
+/* FORM */
+.form__column{
+    display: flex;
+}
+.form {
+    color: #696969;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+font-weight: 1000;
+text-transform: uppercase;
+}
+.form_name{
+height: 100px;
+width: 50%;
+} 
+.form_mail{
+height: 100px;
+width: 50%;
+}
+.form_message{
+    height: 100px;
+width: 100%;
+}
+.form p:after {
+content: " *";
+color: #f6744b;
+}
+.input{
+    height: 30px;
+    width:90%;
+    border: none;
+    border-bottom: 1px solid #cacaca;    
+}
+#message{
+    height:50px;
+    width:95%;
+}
+#form__button{
+display: block;
+width: 203px;
+height: 51px;
+
+border: 0;
+margin: auto;
+margin-top: 60px;
+margin-bottom: 83px;
+background-color: #f6744b;
+color: #ebebeb;
+font-family: "Montserrat", sans-serif;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
 }
